@@ -12,3 +12,4 @@ def get_weather(city):
     response = requests.get(url)
     data = response.json()
     return data
+
